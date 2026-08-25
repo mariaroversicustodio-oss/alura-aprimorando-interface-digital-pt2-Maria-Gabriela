@@ -1,0 +1,43 @@
+body{
+    max-width: 100vw;
+}
+header{
+       background-color: rgb(205, 4, 165);
+       color:rgb(232, 187, 108);
+       text-align: center; 
+       max-width: 800px; 
+       margin: 0 auto;
+       padding: 16px;
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+       background-color: rgb(223, 26, 167);
+       color:rgb(232, 187, 108);
+       margin: 0 auto; 
+        padding: 16px;
+        }
+        article{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       border: 1px solid rgb(184, 134, 49);
+       margin: 16px;
+       gap: 16px;
+       padding: 16px;
+       flex: 1 1 25%;
+        }
+        img{
+         width: 80px; 
+         height: 80px;
+        }
+        .artigo-autor{
+            font-weight: bold;
+        }
+        .direitos {
+            text-align: center;
+            color:rgb(233, 13, 200)
+        }
+    
